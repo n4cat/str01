@@ -9,7 +9,7 @@ def load_lottieurl(url: str):
 lot3="https://lottie.host/9d7858db-0b59-4395-ae0f-b57203577235/vTJKGelBz0.json"
 lottie3 = load_lottieurl(lot3)
 st_lottie(lottie3)
-st.balloons()
+
 
 
 import streamlit as st
@@ -101,3 +101,4 @@ if st.button("ทำนายผล"):
 else :
     st.button("ไม่ทำนายผล")
 
+st.balloons()
